@@ -1,6 +1,10 @@
 /*
-ID: 6099
-Name: LRU Caching
+ Author: Isaac Secundino
+ Problem:
+   ID: 6099
+   Name: LRU Caching
+   Regional: North America - Mid-Central USA
+   Year: 2012
 */
 
 #include <stdio.h>
