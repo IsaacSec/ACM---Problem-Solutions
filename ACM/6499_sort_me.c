@@ -1,3 +1,12 @@
+/*
+ Author: Isaac Secundino
+ Problem:
+   ID: 6499
+   Name: Sort Me
+   Regional: North America - Mid-Central USA
+   Year: 2013
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #define ML 31
@@ -62,8 +71,8 @@ void orderByAlphabet(char *a, char **strs, int n){
 
 int main() {
   int year = 1;
-  int finished = 1;
-  while (finished) {
+  
+  while (1) {
     int n;
     char alphabet[ML];
     scanf("%d ",&n);
