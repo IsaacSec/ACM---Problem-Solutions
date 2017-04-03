@@ -2,9 +2,9 @@
  Author: Isaac Secundino
  Problem:
    ID: 6555
-   Name: Play Fair Encryption
-   Regional:
-   Year:
+   Name: Play Fair with Encryption
+   Regional: North America - East Central NA
+   Year: 2013
 */
 
 #include <stdio.h>
