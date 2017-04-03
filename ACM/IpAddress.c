@@ -1,4 +1,12 @@
-/* Ip Address */
+/*
+ Author: Isaac Secundino
+ Problem:
+   ID: 3093
+   Name: IP Address
+   Regional: Latin America - Mexico and Central America
+   Year: 2004
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -26,10 +34,12 @@ int main(){
   int n;
   scanf("%d\n",&n);
   int i;
+  
   for (i=0; i<n; i++) {
     char *bitAdd = (char*)malloc(33);
     scanf("%s\n",bitAdd);
     printAddress(bitAdd);
   }
+  
   return (0);
 }
