@@ -22,9 +22,9 @@ int getPos(Car car, int timep){
   int diff = timep % car.len;
   int pos = 0;
 
-  if(eval & 0x00000001){ //Impar
+  if(eval & 0x00000001){ // Odd
     pos = car.max-diff;
-  }else{  //Par
+  }else{  // Even
     pos = car.min+diff;
   }
 
@@ -44,15 +44,14 @@ int main() {
     for (size_t i = 0; i < m; i++) {
       int x,y,t,result=0;
       scanf("%d %d %d\n",&x,&y,&t);
-      //printf("===========\n");
+     
       for (size_t j = 0; j < n; j++) {
         if(cars[j].max<x || cars[j].min>y){
           continue;
         }
+       
         int pos = getPos(cars[j],t);
-        //printf("[%d] %d-%d\n",pos,cars[j].min,cars[j].max);
         if(pos>=x && pos<=y){
-          //printf("[%d]\n",j);
           result++;
         }
       }
