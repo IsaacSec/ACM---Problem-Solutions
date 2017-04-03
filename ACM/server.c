@@ -1,3 +1,12 @@
+/*
+ Author: Isaac Secundino
+ Problem:
+   ID: 6865
+   Name: Server
+   Regional: North America - North Central NA
+   Year: 2014
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
