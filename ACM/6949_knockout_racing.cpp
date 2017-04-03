@@ -3,8 +3,8 @@
  Problem:
    ID: 6949
    Name: Knockout Racing
-   Regional:
-   Year:
+   Regional: Europe - Northeastern
+   Year: 2014
 */
 
 #include <stdio.h>
