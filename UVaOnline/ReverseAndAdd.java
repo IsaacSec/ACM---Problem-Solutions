@@ -1,6 +1,6 @@
 import java.io.*;
-
-public class Main {
+//id 10018
+public class ReverseAndAdd {
     public static void  main(String [] args) throws Exception{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
